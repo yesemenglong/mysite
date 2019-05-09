@@ -1,0 +1,37 @@
+ul.blogs-type{
+    list-style-type: none
+}
+div.blog:not(:last-child){
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eeeeee;
+}
+div.blog h3{
+    margin-top: 0.5em;
+}
+div.blog p.blog-info{
+    margin: 0;
+}
+div.paginator{
+    text-align: center;
+}
+
+ul.blog-info-description{
+    list-style-type: none;
+}
+ul.blog-info-description li{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+div.blog-content{
+    text-indent: 2em;
+}
+
+div.blog-more{
+    padding-top: 4em;
+}
+
+div.django-ckeditor-widget{
+    width: 100%;
+}
